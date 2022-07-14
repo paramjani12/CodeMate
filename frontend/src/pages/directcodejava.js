@@ -230,7 +230,7 @@ const DirectCodePageJava = () => {
         </Toolbar>
     </Container>
     </AppBar>
-    <Grid container>
+    <Grid container style={{height:"95vh"}}>
         <Grid item xs={8} className={classes.body} >
             <AceEditor
                 style={{height:"100%",minHeight:'67.5vh'}}
